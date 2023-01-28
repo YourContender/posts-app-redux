@@ -21,7 +21,6 @@ function Likes({ likes, onIncrementLikes, onDecrementLikes }) {
 }
 
 function mapStateToProps(state) { 
-    console.log('mapStateToProps', state);
     const { likesReducer } = state;
     
     return {
