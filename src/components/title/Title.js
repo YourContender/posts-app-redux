@@ -5,7 +5,6 @@ function Title() {
     const dispatch = useDispatch();
 
     const text = useSelector(state => {
-        console.log('state >>>>>>', state);
         const { inputReducer} = state;
         return inputReducer.text
     })
